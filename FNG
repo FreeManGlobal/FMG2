@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We The Free | Free Man Global</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #1e1e1e;
+      padding: 2rem;
+      text-align: center;
+    }
+    header {
+      padding: 1rem 0;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #2d3748;
+      margin-bottom: 0.5rem;
+    }
+    p.subtitle {
+      font-size: 1.25rem;
+      color: #4a5568;
+      margin-bottom: 2rem;
+    }
+    img.logo {
+      width: 120px;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      background-color: #1a202c;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .btn:hover {
+      background-color: #2d3748;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #718096;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="FMG Logo" class="logo" />
+    <h1>We The Free</h1>
+    <p class="subtitle">A Global Merchant Alliance Powered by the People</p>
+  </header>
+  <main>
+    <p style="max-width: 600px; margin: 0 auto 1.5rem auto; font-size: 1.1rem;">
+      Free Man Global (FMG) is a decentralized currency for everyday life — enabling commerce across borders without reliance on fiat systems. Built for trust, simplicity, and freedom.
+    </p>
+    <a class="btn" href="whitepaper.pdf" target="_blank">📄 Read the Whitepaper</a>
+    <p style="margin-top: 2rem; font-size: 1rem; color: #4a5568;">
+      Questions? Contact us at <a href="mailto:team@wethefree.global">team@wethefree.global</a>
+    </p>
+  </main>
+  <footer>
+    &copy; 2025 We The Free. All rights reserved.
+  </footer>
+</body>
+</html>
